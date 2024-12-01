@@ -1,0 +1,33 @@
+---
+# Example mapping configuration
+concepts:
+  # Source concept ID: Target concept ID
+  5096: 5096  # Weight
+  5089: 5089  # Weight
+  5090: 5090  # Height
+  # Add more concept mappings as needed
+
+encounterTypes:
+  1: 1  # ADULTINITIAL
+  2: 2  # ADULTRETURN
+  # Add more encounter type mappings
+
+forms:
+  1: 1  # Adult Initial Visit
+  2: 2  # Adult Return Visit
+  # Add more form mappings
+
+visitTypes:
+  1: 1  # OUTPATIENT
+  2: 2  # INPATIENT
+  # Add more visit type mappings
+
+programs:
+  1: 1  # HIV PROGRAM
+  2: 2  # TB PROGRAM
+  # Add more program mappings
+
+identifierTypes:
+  1: 1  # OpenMRS ID
+  2: 2  # Old Identification Number
+  # Add more identifier type mappings
